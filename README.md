@@ -1,12 +1,35 @@
-# React + Vite
+# Dynamic Form Builder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React-based application for creating dynamic forms with nested fields, conditional logic, and real-time validation.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Dynamic Field Selection**  
+  Add various field types at runtime:
+  - Text Field
+  - Dropdown
+  - Radio Button
+  - File Upload
+  - Checkbox
+  - Country Selector (with phone formats)
+  - Date Picker
+  - Phone Number (multi-country support)
 
-## Expanding the ESLint configuration
+- **Real-Time Validation**  
+  Custom validation rules that trigger during data entry
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Nested Fields & Sections**  
+  - Organize fields into collapsible sections
+  - Support for sub-sections and nested forms
+
+- **Conditional Logic**  
+  Show/hide fields or sections based on user input
+
+- **Data Visualization**  
+  Hierarchical display of submitted form data
+
+## Technologies
+
+- React.js
+- Ant Design (UI Components, Form HAndling, Validation)
+- Redux (State Management)
